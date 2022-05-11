@@ -1,0 +1,82 @@
+img{
+    margin-top: -15px;
+    width:  150px;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 15px;
+    float: left;
+}
+
+.header {
+    overflow: hidden;
+    background-color: cadetblue;
+    padding: 10px;
+    height: 150px;
+    margin: -10px;
+}
+
+
+h1{
+
+    height: 180px;
+    text-align: left;
+    font-size: large;
+    color:black;
+
+
+}
+.name{
+    color: cadetblue;
+    font-family: "Bell MT";
+    font-size: large;
+}
+
+
+.skills{
+    font-family: "Bell MT";
+    float: right;
+    color: cadetblue;
+    margin-top: 20px;
+}
+
+table,th,td{
+    width: 50%;
+    border:1px solid black;
+}
+
+li{
+    font-family: "Arial Nova";
+}
+
+table{
+    font-family: "Arial Nova";
+    margin-bottom: 30px;
+}
+
+.skills div{
+    font-size: medium;
+    float: right;
+    border: 4px solid cadetblue;
+    margin-right: 30px;
+    font-family: Italic;
+    color: black;
+}
+
+
+@media(max-width: 800px){
+    h2:first-of-type{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 600px){
+    h1{
+        font-size: 80%;
+    }
+
+}
+html {
+    background-color: white;
+}
+
